@@ -52,6 +52,6 @@ public class Interval {
 	}	
 
 	public boolean isIntersected(Interval interval) {
-		return true;
+		return this.max.value > interval.min.value;
 	}
 }

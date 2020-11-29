@@ -51,4 +51,7 @@ public class Interval {
 		return this.min.toString() + ", " + max.toString();
 	}	
 
+	public boolean isIntersected(Interval interval) {
+		return false;
+	}
 }
